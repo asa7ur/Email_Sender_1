@@ -123,3 +123,77 @@ body{
     transform: all 0.3s ease;
 }
 
+@media screen and (max-width: 60rem){
+
+    .container{
+        margin: 0;
+    }
+
+    .gradient-content{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 56rem) {
+
+    .container{
+        max-width: 90%;
+        flex-direction: column;
+        margin-inline: 0;
+    }
+
+    .gradient-section, .form-section{
+        width: 100%;
+    }
+
+    .gradient-section{
+        height: 25vh;
+    }
+
+    .gradient-content{
+        inset: 0;
+        transform: translate(0, 0);
+        padding: 1rem 1.6rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gradient-content h1{
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .gradient-content p{
+        font-size: 0.75rem;
+    }
+
+    .form-section{
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .form-section h2{
+        font-size: 1.25rem;
+    }
+
+    .form-section button{
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 36.25rem){
+
+    .container{
+        max-width: 100%;
+    }
+
+    .form-section{
+        width: 100%;
+    }
+}
