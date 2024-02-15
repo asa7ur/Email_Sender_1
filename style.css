@@ -32,13 +32,14 @@ body{
     width: 100%;
     height: 100%;
     background-color: #ccff99;
-    background-image: radial-gradient(at 83% 69%, hsla(280, 67%, 78%, 1) 0px, transparent 50%),
-    radial-gradient(at 9% 70%, hsla(18, 81%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 61% 52%, hsla(153, 75%, 65%, 1) 0px, transparent 50%),
-    radial-gradient(at 28% 93%, hsla(321, 74%, 60%, 1) 0px, transparent 50%),
-    radial-gradient(at 34% 6%, hsla(216, 89%, 66%, 1) 0px, transparent 50%),
-    radial-gradient(at 51% 86%, hsla(295, 97%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 32% 55%, hsla(295, 99%, 66%, 1) 0px, transparent 50%);
+    background-image: 
+        radial-gradient(at 83% 69%, hsla(280, 67%, 78%, 1) 0px, transparent 50%),
+        radial-gradient(at 9% 70%, hsla(18, 81%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 61% 52%, hsla(153, 75%, 65%, 1) 0px, transparent 50%),
+        radial-gradient(at 28% 93%, hsla(321, 74%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 34% 6%, hsla(216, 89%, 66%, 1) 0px, transparent 50%),
+        radial-gradient(at 51% 86%, hsla(295, 97%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 32% 55%, hsla(295, 99%, 66%, 1) 0px, transparent 50%);
 }
 
 .gradient-content{
@@ -76,6 +77,10 @@ body{
     margin-top: 15px;
 }
 
+.form-group{
+    margin-bottom: 12px;
+}
+
 .form-group label{
     font-size: 0.9375rem;
     font-weight: 600;
@@ -91,6 +96,8 @@ body{
     color: hsl(240, 54%, 15%);
     padding: 0.3rem;
     border: 2px solid #ccc;
+    border-radius: 0.3rem;
+    outline: none;
 }
 
 .form-group textarea{
@@ -120,7 +127,7 @@ body{
     font-weight: 500;
     color: #3461ca;
     opacity: 0;
-    transform: all 0.3s ease;
+    transform: all 0.2s ease;
 }
 
 @media screen and (max-width: 60rem){
